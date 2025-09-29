@@ -18,7 +18,7 @@ const Header = async () => {
                     <div class="header__logo">
                         <a href="/">
                             <div class="logo">
-                                <img src="/logo.png" alt="logo not found">
+                                <img src="/logo.jpeg" alt="logo not found" style="width: 90px; height: auto; border-radius: 18px;" />
                             </div>
                         </a>
                     </div>
@@ -30,11 +30,11 @@ const Header = async () => {
                                     <li><a href="/">Home</a></li>
                                     <li><a href="/about">About us</a></li>
                                     <li class="has-dropdown">
-                                        <a href="/projects">Projects</a>
+                                        <a href="/">Projects</a>
                                         <ul class="submenu">
                                             ${projects.map((project: any) => `
                                                 <li>
-                                                    <a href="/projects/${project.id}">
+                                                    <a href="/">
                                                         ${project.name}
                                                     </a>
                                                 </li>
@@ -66,6 +66,63 @@ const Header = async () => {
         </div>
     </div>
 </header>
+
+<!-- Backtotop start -->
+<div id="scroll-percentage">
+    <span id="scroll-percentage-value"></span>
+</div>
+<!-- Backtotop end -->
+
+<!-- cursorAnimation start -->
+<div class="cursor-wrapper relative">
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+</div>
+<!-- cursorAnimation end -->
+
+<!-- Offcanvas area start -->
+<div class="fix">
+    <div class="offcanvas__area">
+        <div class="offcanvas__wrapper">
+            <div class="offcanvas__content">
+                <div class="offcanvas__top d-flex justify-content-between align-items-center">
+                    <div class="offcanvas__logo">
+                        <a href="/">
+                            <img src="/logo.jpeg" alt="logo not found">
+                        </a>
+                    </div>
+                    <div class="offcanvas__close">
+                        <button class="offcanvas-close-icon animation--flip">
+                                <span class="offcanvas-m-lines">
+                              <span class="offcanvas-m-line line--1"></span><span class="offcanvas-m-line line--2"></span><span class="offcanvas-m-line line--3"></span>
+                                </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="mobile-menu fix"></div>
+                <div class="offcanvas__btn">
+                    <div class="header__btn-wrap">
+                        <a href="/contact" class="rr-btn__header d-sm-none mb-10 w-100">
+                            <span class="btn-wrap">
+                                <span class="text-one">Get In Touch</span>
+                                <span class="text-two">Get In Touch</span>
+                            </span>
+                        </a>
+                        <a href="/contact" class="rr-btn__header w-100">
+                            <span class="btn-wrap">
+                                <span class="text-one">Contact Us</span>
+                                <span class="text-two">Contact Us</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="offcanvas__overlay"></div>
+<div class="offcanvas__overlay-white"></div>
+<!-- Offcanvas area start -->
 <!-- Header area end -->
     `
     return (

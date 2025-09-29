@@ -2,6 +2,7 @@ import React from 'react'
 
 const page = () => {
     const html = `
+    
     <main>
     <!-- Breadcrumb area start  -->
     <div class="breadcrumb__area header__background-color breadcrumb__header-up breadcrumb-space overly overflow-hidden">
@@ -81,9 +82,9 @@ This is why, their focus is on building, and the finer aspects are found missing
                     <div class="about-company__content">
 
                         <div class="section__title-wrapper mb-50 mb-xs-35">
-                            <span class="section__subtitle ">Identifying the problem</span>
-                            <h2 class="section__title mb-25">Your builder is not
-your architect.</h2>
+                            <h2 class="section__title ">Identifying the problem</h2>
+                            <h1 class="section__subtitle mb-25">Your builder is not
+your architect.</h1>
                             <p class="mb-0">This leads to unsatisfactory
 planning, procurement,
 development and delivery.<br/>
@@ -92,9 +93,9 @@ customers, and hence, an overall drop
 in the quality of life and experience.</p>
 <br/>
 <br/>
-<h2 class="section__title mb-25">The focus is on
+<h1 class="section__subtitle mb-25">The focus is on
 project completion,
-instead of on delivery.</h2>
+instead of on delivery.</h1>
                             <p class="mb-0">Because of which, quality of
 materials, workmanship and
 craftsmanship take a major hit.<br/>
@@ -154,12 +155,16 @@ created space.</p>
                     <div class="about-company__content">
 
                         <div class="section__title-wrapper mb-50 mb-xs-35">
-                            <span class="section__subtitle ">SOLUTIONS</span>
-                            <h2 class="section__title mb-25">1. Your Architect &
+                            <h2 class="section__title ">SOLUTIONS</h2><br/>
+                            <h2 class="section__subtitle mb-25">1. Your Architect &
 Builder are the same</h2>
-<h2 class="section__title mb-25">2. Deep Planning &
+<h2 class="section__subtitle mb-25">2. Deep Planning &
 Design Expertise</h2>
-<h2 class="section__title mb-25">3. Highly Skilled &
+<h2 class="section__subtitle mb-25">3. Highly Skilled &
+Experienced Team</h2>
+<h2 class="section__subtitle mb-25">3. Highly Skilled &
+Experienced Team</h2>
+<h2 class="section__subtitle mb-25">3. Highly Skilled &
 Experienced Team</h2>
                         </div>
 

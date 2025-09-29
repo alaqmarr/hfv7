@@ -9,62 +9,6 @@ const Home = () => {
 <![endif]-->
 
 
-<!-- Backtotop start -->
-<div id="scroll-percentage">
-    <span id="scroll-percentage-value"></span>
-</div>
-<!-- Backtotop end -->
-
-<!-- cursorAnimation start -->
-<div class="cursor-wrapper relative">
-    <div class="cursor"></div>
-    <div class="cursor-follower"></div>
-</div>
-<!-- cursorAnimation end -->
-
-<!-- Offcanvas area start -->
-<div class="fix">
-    <div class="offcanvas__area">
-        <div class="offcanvas__wrapper">
-            <div class="offcanvas__content">
-                <div class="offcanvas__top d-flex justify-content-between align-items-center">
-                    <div class="offcanvas__logo">
-                        <a href="index.html">
-                            <img src="assets/imgs/logo/logo-white.svg" alt="logo not found">
-                        </a>
-                    </div>
-                    <div class="offcanvas__close">
-                        <button class="offcanvas-close-icon animation--flip">
-                                <span class="offcanvas-m-lines">
-                              <span class="offcanvas-m-line line--1"></span><span class="offcanvas-m-line line--2"></span><span class="offcanvas-m-line line--3"></span>
-                                </span>
-                        </button>
-                    </div>
-                </div>
-                <div class="mobile-menu fix"></div>
-                <div class="offcanvas__btn">
-                    <div class="header__btn-wrap">
-                        <a href="contact.html" class="rr-btn__header d-sm-none mb-10 w-100">
-                            <span class="btn-wrap">
-                                <span class="text-one">Get In Touch</span>
-                                <span class="text-two">Get In Touch</span>
-                            </span>
-                        </a>
-                        <a href="https://themeforest.net/user/rrdevs/portfolio" class="rr-btn__header w-100">
-                            <span class="btn-wrap">
-                                <span class="text-one">Purchase Now</span>
-                                <span class="text-two">Purchase Now</span>
-                            </span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="offcanvas__overlay"></div>
-<div class="offcanvas__overlay-white"></div>
-<!-- Offcanvas area start -->
 
 
 <main>
@@ -88,7 +32,7 @@ const Home = () => {
                                             </h1>
                                             <p class="des color-white mb-45 mb-md-30">Welcome to High Field Ventures, crafting timeless interiors that tell your story. Discover a world where design meets emotion.</p>
 
-                                            <a href="about-us.html" class="rr-btn">
+                                            <a href="/about" class="rr-btn">
                                                 <span class="btn-wrap">
                                                     <span class="text-one">About Us</span>
                                                     <span class="text-two">About Us</span>
@@ -115,9 +59,9 @@ const Home = () => {
                                             <h1 class="banner__item-title rr-fw-bold color-white">
                                                 Creating Spaces Through <span>Innovative Design.</span>
                                             </h1>
-                                            <p class="des color-white mb-45 mb-md-30">Welcome to Artima, crafting timeless interiors that tell your story. Discover a world where design meets emotion.</p>
+                                            <p class="des color-white mb-45 mb-md-30">Welcome to High Field Ventures, crafting timeless interiors that tell your story. Discover a world where design meets emotion.</p>
     
-                                            <a href="about-us.html" class="rr-btn">
+                                            <a href="/about" class="rr-btn">
                                                 <span class="btn-wrap">
                                                     <span class="text-one">About Us</span>
                                                     <span class="text-two">About Us</span>
@@ -144,9 +88,9 @@ const Home = () => {
                                             <h1 class="banner__item-title rr-fw-bold color-white">
                                                 Creating Spaces Through <span>Innovative Design.</span>
                                             </h1>
-                                            <p class="des color-white mb-45 mb-md-30">Welcome to Artima, crafting timeless interiors that tell your story. Discover a world where design meets emotion.</p>
+                                            <p class="des color-white mb-45 mb-md-30">Welcome to High Field Ventures, crafting timeless interiors that tell your story. Discover a world where design meets emotion.</p>
     
-                                            <a href="about-us.html" class="rr-btn">
+                                            <a href="/about" class="rr-btn">
                                                 <span class="btn-wrap">
                                                     <span class="text-one">About Us</span>
                                                     <span class="text-two">About Us</span>
@@ -180,7 +124,7 @@ const Home = () => {
                 </div>
 
                 <div class="banner__bottom-title">
-                    <h6><a href="blog-details.html">Creating Spaces Through<span> Innovative Design.</span> </a></h6>
+                    <h6><a href="/">Creating Spaces Through<span> Innovative Design.</span> </a></h6>
                 </div>
 
                 <div class="swiper-container gallery-thumbs">
@@ -202,7 +146,7 @@ const Home = () => {
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="about-us__media">
-                        <img class="wow clip-a-z" src="/logo.png" alt="image not found">
+                        <img class="wow clip-a-z" src="/logo.jpeg" alt="image not found">
 
                         <div class="about-us__box">
                             <h4><span class="odometer" data-count="20">15</span></h4>
@@ -232,19 +176,13 @@ customers, investors and owners.</p>
                         </div>
 
     
-                        <a href="about-us.html" class="rr-btn">
+                        <a href="/about" class="rr-btn">
                             <span class="btn-wrap">
                                 <span class="text-one">About Us
-                                    <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1 6.5H11" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M6 1.5L11 6.5L6 11.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>
+                                    
                                 </span>
                                 <span class="text-two">About Us 
-                                    <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1 6.5H11" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M6 1.5L11 6.5L6 11.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>
+                                    
                                 </span>
                             </span>
                         </a>
@@ -276,9 +214,9 @@ customers, investors and owners.</p>
                             <img src="./assets/imgs/what-we-do/what-we-do-1.svg" alt="image not found">
                         </div>
                         <div class="text">
-                            <h6 class="what-we-do__item-title title-animation"><a href="service-details.html">Home Interior Design</a></h6>
+                            <h6 class="what-we-do__item-title title-animation"><a href="/">Home Interior Design</a></h6>
                             <p class="what-we-do__item-desc">Sagitis himos pulvinar morb socis laoreet posuere enim non auctor etiam pretium libero</p>
-                            <a href="service-details.html" class="what-we-do__item-arrow">
+                            <a href="/" class="what-we-do__item-arrow">
                                 Read More
                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 6H11" stroke="#767676" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -295,9 +233,9 @@ customers, investors and owners.</p>
                             <img src="./assets/imgs/what-we-do/what-we-do-2.svg" alt="image not found">
                         </div>
                         <div class="text">
-                            <h6 class="what-we-do__item-title title-animation"><a href="service-details.html">Home Exterior Design</a></h6>
+                            <h6 class="what-we-do__item-title title-animation"><a href="/">Home Exterior Design</a></h6>
                             <p class="what-we-do__item-desc">Sagitis himos pulvinar morb socis laoreet posuere enim non auctor etiam pretium libero</p>
-                            <a href="service-details.html" class="what-we-do__item-arrow">
+                            <a href="/" class="what-we-do__item-arrow">
                                 Read More
                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 6H11" stroke="#767676" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -314,9 +252,9 @@ customers, investors and owners.</p>
                             <img src="./assets/imgs/what-we-do/what-we-do-3.svg" alt="image not found">
                         </div>
                         <div class="text">
-                            <h6 class="what-we-do__item-title title-animation"><a href="service-details.html">2D/3D Design Layout</a></h6>
+                            <h6 class="what-we-do__item-title title-animation"><a href="/">2D/3D Design Layout</a></h6>
                             <p class="what-we-do__item-desc">Sagitis himos pulvinar morb socis laoreet posuere enim non auctor etiam pretium libero</p>
-                            <a href="service-details.html" class="what-we-do__item-arrow">
+                            <a href="/" class="what-we-do__item-arrow">
                                 Read More
                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 6H11" stroke="#767676" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -333,9 +271,9 @@ customers, investors and owners.</p>
                             <img src="./assets/imgs/what-we-do/what-we-do-4.svg" alt="image not found">
                         </div>
                         <div class="text">
-                            <h6 class="what-we-do__item-title title-animation"><a href="service-details.html">Furniture's Design</a></h6>
+                            <h6 class="what-we-do__item-title title-animation"><a href="/">Furniture's Design</a></h6>
                             <p class="what-we-do__item-desc">Sagitis himos pulvinar morb socis laoreet posuere enim non auctor etiam pretium libero</p>
-                            <a href="service-details.html" class="what-we-do__item-arrow">
+                            <a href="/" class="what-we-do__item-arrow">
                                 Read More
                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 6H11" stroke="#767676" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -352,9 +290,9 @@ customers, investors and owners.</p>
                             <img src="./assets/imgs/what-we-do/what-we-do-5.svg" alt="image not found">
                         </div>
                         <div class="text">
-                            <h6 class="what-we-do__item-title title-animation"><a href="service-details.html">Modern Home Interior</a></h6>
+                            <h6 class="what-we-do__item-title title-animation"><a href="/">Modern Home Interior</a></h6>
                             <p class="what-we-do__item-desc">Sagitis himos pulvinar morb socis laoreet posuere enim non auctor etiam pretium libero</p>
-                            <a href="service-details.html" class="what-we-do__item-arrow">
+                            <a href="/" class="what-we-do__item-arrow">
                                 Read More
                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 6H11" stroke="#767676" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -371,9 +309,9 @@ customers, investors and owners.</p>
                             <img src="./assets/imgs/what-we-do/what-we-do-6.svg" alt="image not found">
                         </div>
                         <div class="text">
-                            <h6 class="what-we-do__item-title title-animation"><a href="service-details.html">Custom Design Plan</a></h6>
+                            <h6 class="what-we-do__item-title title-animation"><a href="/">Custom Design Plan</a></h6>
                             <p class="what-we-do__item-desc">Sagitis himos pulvinar morb socis laoreet posuere enim non auctor etiam pretium libero</p>
-                            <a href="service-details.html" class="what-we-do__item-arrow">
+                            <a href="/" class="what-we-do__item-arrow">
                                 Read More
                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 6H11" stroke="#767676" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -495,17 +433,17 @@ customers, investors and owners.</p>
                         <div class="col-sm-7">
                             <div class="why-choose-us__media-wrapper">
                                 <div class="why-choose-us__media img1 wow clip-a-z">
-                                    <img src="assets/imgs/why-choose-us/why-choose-us-1.jpg" alt="image not found">
+                                    <img src="assets/1.jpg" alt="image not found">
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-5">
                             <div class="why-choose-us__media img2 wow clip-a-z mb-30">
-                                <img src="assets/imgs/why-choose-us/why-choose-us-2.jpg" alt="image not found">
+                                <img src="assets/2.jpg" alt="image not found">
                             </div>
                             <div class="why-choose-us__media">
                                 <div class="why-choose-us__media img3 wow clip-a-z">
-                                    <img src="assets/imgs/why-choose-us/why-choose-us-3.jpg" alt="image not found">
+                                    <img src="assets/3.jpg" alt="image not found">
                                 </div>
                             </div>
                         </div>
@@ -523,8 +461,8 @@ customers, investors and owners.</p>
             <div class="row">
                 <div class="col-12">
                     <div class="filter__media filter__container">
-                        <div class="pic pic--left" data-background="assets/imgs/filter__area/before-filter.png"></div>
-                        <div class="pic pic--right" data-background="assets/imgs/filter__area/after-filter.png"></div>
+                        <div class="pic pic--left" data-background="assets/1.jpg"></div>
+                        <div class="pic pic--right" data-background="assets/3.jpg"></div>
                         <div class="comparison-ctrl">
                             <img class="img-fluid" src="assets/imgs/filter__area/ctrl.svg" alt="icon not found">
                         </div>
@@ -556,7 +494,7 @@ customers, investors and owners.</p>
                     </div>
 
                     <div class="working-process__text text-center">
-                        <h6 class="title-animation"><a href="protfolio.html">Visit Project</a></h6>
+                        <h6 class="title-animation"><a href="/">Visit Project</a></h6>
                         <p class="mb-0">Lorem ipsum dolor sit amecon sectetur
                             adipisicing elit sed do.</p>
                     </div>
@@ -571,7 +509,7 @@ customers, investors and owners.</p>
                     </div>
 
                     <div class="working-process__text text-center">
-                        <h6 class="title-animation"><a href="protfolio.html">Planning Design</a></h6>
+                        <h6 class="title-animation"><a href="/">Planning Design</a></h6>
                         <p class="mb-0">Lorem ipsum dolor sit amecon sectetur
                             adipisicing elit sed do.</p>
                     </div>
@@ -586,7 +524,7 @@ customers, investors and owners.</p>
                     </div>
 
                     <div class="working-process__text text-center">
-                        <h6 class="title-animation"><a href="protfolio.html">Project Sketch</a></h6>
+                        <h6 class="title-animation"><a href="/">Project Sketch</a></h6>
                         <p class="mb-0">Lorem ipsum dolor sit amecon sectetur
                             adipisicing elit sed do.</p>
                     </div>
@@ -601,7 +539,7 @@ customers, investors and owners.</p>
                     </div>
 
                     <div class="working-process__text text-center">
-                        <h6 class="title-animation"><a href="protfolio.html">Start Working</a></h6>
+                        <h6 class="title-animation"><a href="/">Start Working</a></h6>
                         <p class="mb-0">Lorem ipsum dolor sit amecon sectetur
                             adipisicing elit sed do.</p>
                     </div>
