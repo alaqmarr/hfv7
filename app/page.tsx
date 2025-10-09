@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Home = () => {
-  const html = `
+    const html = `
   <body class="body-1">
 
 <!--[if lte IE 9]>
@@ -296,13 +296,13 @@ customers, investors and owners.</p>
 </main>
 </body>
   `
-  return (
-    <div
-      dangerouslySetInnerHTML={{ __html: html }}
-    >
+    return (
+        <div
+            dangerouslySetInnerHTML={{ __html: html }}
+        >
 
-    </div>
-  )
+        </div>
+    )
 }
 
 export default Home
