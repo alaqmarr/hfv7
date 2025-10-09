@@ -22,18 +22,23 @@ const Header = async () => {
                                     <a class="bar-icon" href="javascript:void(0)">
                                         <span></span>
                                         <span></span>
+                                        <span></span>
                                     </a>
                                 </div>
                             </div>
                         </div>
-                        <
+                        
                     </div>
                     <div class="header__logo">
+                        <div
+                        class="newNavStyle "
+                        >
                         <a href="/">
                             <div class="logo">
-                               <p class='color: bg-yellow-600;'>HIGHFIELD</p>
+                               <h3 class='navTextNew'>HIGHFIELD</h3>
                             </div>
                         </a>
+                        </div>
                     </div>
 
                     <div class="mean__menu-wrapper d-none d-lg-block">
@@ -46,7 +51,6 @@ const Header = async () => {
                                         <a href="/">Projects</a>
                                         <ul class="submenu">
                                             
-        }
 
                                         </ul>
                                     </li>
