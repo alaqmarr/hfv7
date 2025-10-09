@@ -5805,7 +5805,7 @@ body .ui-tooltip {
           justify-content: center;
 }
 .header-1 .header__hamburger .bar-icon {
-  width: 65px;
+  width: 15px;
   height: 12px;
 }
 .header-1 .header__hamburger .bar-icon span {
@@ -6612,7 +6612,7 @@ body .ui-tooltip {
           justify-content: center;
 }
 .header-4 .header__hamburger .bar-icon {
-  width: 65px;
+  width: 20px;
   height: 12px;
 }
 .header-4 .header__hamburger .bar-icon span {
@@ -6987,6 +6987,13 @@ body .ui-tooltip {
     left: 0;
     position: absolute;
     -webkit-transform: translate(50%, -50%);
+  }
+
+  .banner__item-content{
+    margin-top: 80%;
+  }
+  .banner__bottom-wrapper{
+    margin-top: -90%;
   }
 }
 .banner__item-content-link .popup-video .icon {

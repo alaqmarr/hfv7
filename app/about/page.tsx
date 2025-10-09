@@ -13,7 +13,7 @@ const page = () => {
             <div class="row align-items-center justify-content-between">
                 <div class="col-12">
                     <div class="breadcrumb__content text-center">
-                        <h2 class="breadcrumb__title mb-15 mb-sm-10 mb-xs-5 color-white title-animation">About Us</h2>
+                        <h3 class="breadcrumb__title mb-15 mb-sm-10 mb-xs-5 color-white title-animation">We make your<br/> dream come true.</h3>
 
                         <div class="breadcrumb__menu">
                             <nav>

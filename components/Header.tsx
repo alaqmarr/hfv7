@@ -1,13 +1,13 @@
 import React from 'react'
 
 const Header = async () => {
-    const res = await fetch('https://highfieldventuresbackend.vercel.app/api/get/projects', {
-        cache: 'no-store',
-        method: 'GET',
-    });
+    // const res = await fetch('https://highfieldventuresbackend.vercel.app/api/get/projects', {
+    //     cache: 'no-store',
+    //     method: 'GET',
+    // });
 
-    const data = await res.json();
-    const projects = data.projects;
+    // const data = await res.json();
+    // const projects = data.projects;
     const html = `
     <!-- Header area start -->
 <header>
@@ -15,10 +15,23 @@ const Header = async () => {
         <div class="container">
             <div class="mega__menu-wrapper p-relative">
                 <div class="header__main">
+                    <div class="header__right">
+                        <div class="header__action d-flex align-items-center">
+                            <div class="header__hamburger">
+                                <div class="sidebar__toggle">
+                                    <a class="bar-icon" href="javascript:void(0)">
+                                        <span></span>
+                                        <span></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <
+                    </div>
                     <div class="header__logo">
                         <a href="/">
                             <div class="logo">
-                                <img src="/logo.jpeg" alt="logo not found" style="width: 90px; height: auto; border-radius: 18px;" />
+                               <p class='color: bg-yellow-600;'>HIGHFIELD</p>
                             </div>
                         </a>
                     </div>
@@ -32,13 +45,7 @@ const Header = async () => {
                                     <li class="has-dropdown">
                                         <a href="/">Projects</a>
                                         <ul class="submenu">
-                                            ${projects.map((project: any) => `
-                                                <li>
-                                                    <a href="/">
-                                                        ${project.name}
-                                                    </a>
-                                                </li>
-                                            `).join('')
+                                            
         }
 
                                         </ul>
@@ -50,16 +57,13 @@ const Header = async () => {
                     </div>
 
                     <div class="header__right">
-                        <div class="header__action d-flex align-items-center">
-                            <div class="header__hamburger">
-                                <div class="sidebar__toggle">
-                                    <a class="bar-icon" href="javascript:void(0)">
-                                        <span></span>
-                                        <span></span>
-                                    </a>
-                                </div>
+                        <div class="header__logo">
+                        <a href="/">
+                            <div class="logo">
+                                <img src="/longlogo.png" alt="logo not found" style="width: 100px; height: auto; display:none;" />
                             </div>
-                        </div>
+                        </a>
+                    </div>
                     </div>
                 </div>
             </div>
