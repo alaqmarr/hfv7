@@ -18,7 +18,7 @@ const page = () => {
                     <div class="breadcrumb__content text-center">
                         <h3 class="breadcrumb__title mb-15 mb-sm-10 mb-xs-5 color-white title-animation">AL HAMDANI</h3>
                         <blockquote class="blockquote">
-                        Serene Heaven of Branded Living.
+                        Beyond Home. Beyond Expectations.
                         </blockquote>
 
                     </div>
