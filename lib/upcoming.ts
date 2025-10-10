@@ -6,7 +6,7 @@ export const upcomingProjects = [
   },
   {
     id: 2,
-    name: "Al Bustan",
-    href: "/al-bustan",
+    name: " Al Hamdani",
+    href: "/al-hamdani",
   },
 ];

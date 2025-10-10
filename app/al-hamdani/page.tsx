@@ -16,7 +16,7 @@ const page = () => {
             <div class="row align-items-center justify-content-between">
                 <div class="col-12">
                     <div class="breadcrumb__content text-center">
-                        <h3 class="breadcrumb__title mb-15 mb-sm-10 mb-xs-5 color-white title-animation">AL BUSTAN</h3>
+                        <h3 class="breadcrumb__title mb-15 mb-sm-10 mb-xs-5 color-white title-animation">AL HAMDANI</h3>
                         <blockquote class="blockquote">
                         Serene Heaven of Branded Living.
                         </blockquote>
