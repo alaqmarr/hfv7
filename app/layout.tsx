@@ -31,6 +31,12 @@ export default function RootLayout({
         {/* Meta */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="shortcut icon" type="image/x-icon" href="/logo.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous"/>
+<link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap" rel="stylesheet"></link>
 
         {/* CSS Files: all original vendor, plugins, main */}
         <link rel="stylesheet" href="/assets/css/vendor/bootstrap.min.css" />

@@ -1,4 +1,5 @@
 import React from 'react'
+import { upcomingProjects } from '@/lib/upcoming'
 
 const Header = async () => {
     // const res = await fetch('https://highfieldventuresbackend.vercel.app/api/get/projects', {
@@ -8,6 +9,7 @@ const Header = async () => {
 
     // const data = await res.json();
     // const projects = data.projects;
+
     const html = `
     <!-- Header area start -->
 <header>
@@ -48,10 +50,14 @@ const Header = async () => {
                                     <li><a href="/">Home</a></li>
                                     <li><a href="/about">About us</a></li>
                                     <li class="has-dropdown">
-                                        <a href="/">Projects</a>
+                                        <a href="/">New Launch</a>
                                         <ul class="submenu">
-                                            
-
+                                            ${upcomingProjects.map((project) => (
+                                                `
+        <li key=${project.id}>
+            <a href=${project.href}>${project.name}</a>
+        </li>`
+    )).join('')}
                                         </ul>
                                     </li>
                                     <li><a href="/contact">Contact Us</a></li>
