@@ -51,6 +51,7 @@ const Header = async () => {
             <a href=${project.href}>${project.name}</a>
         </li>`
     )).join('')}
+    <li><a href="#">more</a>
                                         </ul>
                                     </li>
                                     <li class="has-dropdown">
@@ -62,6 +63,7 @@ const Header = async () => {
             <a href=${project.href}>${project.name}</a>
         </li>`
     )).join('')}
+    <li><a href="#">more</a>
                                         </ul>
                                     </li>
                                     <li class="has-dropdown">
@@ -73,6 +75,7 @@ const Header = async () => {
             <a href=${project.href}>${project.name}</a>
         </li>`
     )).join('')}
+    <li><a href="#">more</a>
                                         </ul>
                                     </li>
                                     <li><a href="/contact">CONTACT US</a></li>
