@@ -1,11 +1,12 @@
 import React from 'react'
 
+import { upcomingProjects } from '@/lib/projects'
 const page = () => {
     const html = `
     <main>
     <!-- Breadcrumb area start  -->
-    <div class="breadcrumb__area header__background-color breadcrumb__header-up breadcrumb-space overly overflow-hidden">
-        <div class="breadcrumb__background" data-background="./assets/imgs/breadcrumb/page-header-1.png"></div>
+    <div class="breadcrumb__area_custom header__background-color breadcrumb__header-up breadcrumb-space overly overflow-hidden">
+        <div class="breadcrumb__background"></div>
         <div class="container">
             <div class="breadcrumb__bg-left"></div>
             <div class="breadcrumb__bg-right"></div>
@@ -13,15 +14,6 @@ const page = () => {
                 <div class="col-12">
                     <div class="breadcrumb__content text-center">
                         <h2 class="breadcrumb__title mb-15 mb-sm-10 mb-xs-5 color-white title-animation">Contact Us</h2>
-
-                        <div class="breadcrumb__menu">
-                            <nav>
-                                <ul>
-                                    <li><span><a href="index.html">Home</a></span></li>
-                                    <li class="active"><span>Contact Us</span></li>
-                                </ul>
-                            </nav>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -39,8 +31,12 @@ const page = () => {
                             <img src="./assets/imgs/contact-us/location.svg" alt="image not found">
                         </div>
                         <div class="contact-us__text">
-                            <h6>Visit our office</h6>
-                            <a href="#">93X Hilgard Ave, Los Angeles, CA 900XX, United States.</a>
+                            <h6>Head Office</h6>
+                            <a href="#">Plot no 28, Burhani Housing Society, Secunderabad - 500015</a>
+                        </div>
+                        <div class="contact-us__text">
+                            <h6>Branch Office</h6>
+                            <a href="#">Sterling Apartments, Distillery Road, Ranigunj, Secunderabad - 500003</a>
                         </div>
                     </div>
                 </div>
@@ -50,9 +46,8 @@ const page = () => {
                             <img src="./assets/imgs/contact-us/email.svg" alt="image not found">
                         </div>
                         <div class="contact-us__text">
-                            <h6>email address</h6>
-                            <a href="mailto:example@exdosstudio.com">example@exdosstudio.com</a>
-                            <a href="mailto:info@exdosstudio.com">info@exdosstudio.com</a>
+                            <h6>Email Address</h6>
+                            <a href="mailto:highfieldventuresllp@gmail.com">highfieldventuresllp@gmail.com</a>
                         </div>
                     </div>
                 </div>
@@ -63,8 +58,8 @@ const page = () => {
                         </div>
                         <div class="contact-us__text">
                             <h6>Phone number</h6>
-                            <a href="tel:123534352555">+1-2353-4352-555</a>
-                            <a href="tel:01541258360">01 (541) 258 360</a>
+                            <a href="tel:+919703699852">+91 97036 99852</a>
+                            <a href="tel:+919030020352">+91 90300 20352</a>
                         </div>
                     </div>
                 </div>
@@ -78,7 +73,7 @@ const page = () => {
             <div class="row">
                 <div class="col-lg-6">
                     <div class="contact__from">
-                        <h4 class="title-animation mb-10">Get in touch</h4>
+                        <h4 class="title-animation mb-10">Schedule a project visit</h4>
                         <p>Select layout follower boolean editor flows. Scrolling variant move font group variant layout device share.</p>
                         <div class="row">
                             <div class="col-xl-6">
@@ -100,21 +95,15 @@ const page = () => {
 
                             <div class="col-xl-6">
                                 <div class="contact__form-input-select d-flex flex-column">
-                                    <select name="subject" id="subject" style="display: none;">
-                                        <option value="">Subject</option>
-                                        <option value="order">Event Order</option>
-                                        <option value="objection">Objection</option>
+                                    <select name="project" id="project">
+                                        <option value="none">Select Project</option>
+                                        ${upcomingProjects.map((project) => (
+                                            `<option value="${project.name}">${project.name}</option>`
+                                        )).join('')}
                                     </select>
                                 </div>
                             </div>
 
-                            <div class="col-sm-12">
-                                <div class="contact__form-input">
-                                    <div class="validation__wrapper-up position-relative">
-                                        <textarea name="textarea" id="textarea" placeholder="Type Your Message"></textarea>
-                                    </div>
-                                </div>
-                            </div>
 
                             <div class="col-12">
                                 <button type="submit" class="rr-btn">
@@ -139,7 +128,7 @@ const page = () => {
                 </div>
                 <div class="col-lg-6">
                     <div class="map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14600.157880481716!2d90.35107202273903!3d23.81719545680701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c12c1b289e39%3A0x8d3bdfb80d3ebe88!2sRd%20No.%204%2C%20Dhaka%201216!5e0!3m2!1sen!2sbd!4v1701837409513!5m2!1sen!2sbd" width="100%" height="555" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d294.2181219377665!2d78.4973835687982!3d17.475475530074974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9a8aa41ec2ed%3A0xcd0f4b3237856a72!2s28%2C%20Lalamiya%20Basti%2C%20Burhani%20Housing%20Colony%2C%20RTC%20Officers%20Colony%2C%20Tirumalagiri%2C%20Hyderabad%2C%20Secunderabad%2C%20Telangana%20500015!5e0!3m2!1sen!2sin!4v1760165028128!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>

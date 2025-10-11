@@ -1,14 +1,7 @@
 import React from 'react'
-import { upcomingProjects } from '@/lib/upcoming'
+import { upcomingProjects, projects, ongoing } from '@/lib/projects'
 
 const Header = async () => {
-    // const res = await fetch('https://highfieldventuresbackend.vercel.app/api/get/projects', {
-    //     cache: 'no-store',
-    //     method: 'GET',
-    // });
-
-    // const data = await res.json();
-    // const projects = data.projects;
 
     const html = `
     <!-- Header area start -->
@@ -47,10 +40,10 @@ const Header = async () => {
                         <div class="main-menu">
                             <nav id="mobile-menu">
                                 <ul>
-                                    <li><a href="/">Home</a></li>
-                                    <li><a href="/about">About us</a></li>
+                                    <li><a href="/">HOME</a></li>
+                                    <li><a href="/about">ABOUT US</a></li>
                                     <li class="has-dropdown">
-                                        <a href="/">New Launch</a>
+                                        <a href="/">NEW LAUNCH</a>
                                         <ul class="submenu">
                                             ${upcomingProjects.map((project) => (
                                                 `
@@ -60,7 +53,29 @@ const Header = async () => {
     )).join('')}
                                         </ul>
                                     </li>
-                                    <li><a href="/contact">Contact Us</a></li>
+                                    <li class="has-dropdown">
+                                        <a href="/">ONGOING</a>
+                                        <ul class="submenu">
+                                            ${ongoing.map((project) => (
+                                                `
+        <li key=${project.id}>
+            <a href=${project.href}>${project.name}</a>
+        </li>`
+    )).join('')}
+                                        </ul>
+                                    </li>
+                                    <li class="has-dropdown">
+                                        <a href="/">COMPLETED</a>
+                                        <ul class="submenu">
+                                            ${projects.map((project) => (
+                                                `
+        <li key=${project.id}>
+            <a href=${project.href}>${project.name}</a>
+        </li>`
+    )).join('')}
+                                        </ul>
+                                    </li>
+                                    <li><a href="/contact">CONTACT US</a></li>
                                 </ul>
                             </nav>
                         </div>

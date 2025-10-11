@@ -3,6 +3,27 @@ import ImageGallery2 from '@/components/Images2';
 import { getImagesFromFolder } from '@/lib/getImagesFromFolder';
 import React from 'react'
 
+export const metadata = {
+    title: 'Al Fustat | Highfield Ventures',
+    description: 'Highfield Ventures - Al Fustat Project',
+    openGraph: {
+        title: 'Al Fustat | Highfield Ventures',
+        description: 'Highfield Ventures - Al Fustat Project',
+        url: 'https://highfieldventures.com/al-fustat',
+        siteName: 'AL FUSTAT | Highfield Ventures',
+        images: [
+            {
+                url: 'https://highfieldventures.com/al-fustat/2.jpg',
+                alt: 'Al Fustat Image 1',
+            },
+            {
+                url: 'https://highfieldventures.com/al-fustat/3.jpg',
+                alt: 'Al Fustat Image 2',
+            },
+        ],
+    },
+}
+
 const page = () => {
     const html = `
     

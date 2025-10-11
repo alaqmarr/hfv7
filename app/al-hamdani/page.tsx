@@ -3,6 +3,27 @@ import ImageGallery2 from '@/components/Images2';
 import { getImagesFromFolder } from '@/lib/getImagesFromFolder';
 import React from 'react'
 
+export const metadata = {
+    title: 'Al Hamdani | Highfield Ventures',
+    description: 'Highfield Ventures - Al Hamdani Project',
+    openGraph: {
+        title: 'Al Hamdani | Highfield Ventures',
+        description: 'Highfield Ventures - Al Hamdani Project',
+        url: 'https://highfieldventures.com/al-hamdani',
+        siteName: 'AL HAMDANI | Highfield Ventures',
+        images: [
+            {
+                url: 'https://highfieldventures.com/al-hamdani/1.jpg',
+                alt: 'Al Hamdani Image 1',
+            },
+            {
+                url: 'https://highfieldventures.com/al-hamdani/2.jpg',
+                alt: 'Al Hamdani Image 2',
+            },
+        ],
+    },
+}
+
 const page = () => {
     const html = `
     
@@ -31,7 +52,7 @@ const page = () => {
 
     </main>
     `
-const folder = "al-bustan"; // ✅ no leading slash
+const folder = "al-hamdani"; // ✅ no leading slash
 const images = getImagesFromFolder(folder);
 
 

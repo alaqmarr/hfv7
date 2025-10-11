@@ -102,7 +102,7 @@ const Home = () => {
                 </div>
                 
             </div>
-            <div class="banner__bottom-wrapper">
+            <div class="banner__bottom-wrapper" style="display: none;">
 
                 <div class="banner__slider__arrow">
                     <button class="banner__slider__arrow-prev d-flex align-items-center justify-content-center wow clip-t-b">
