@@ -7179,7 +7179,7 @@ body .ui-tooltip {
 
     .newNavStyle{
     margin-left: -18px;
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
@@ -7191,7 +7191,7 @@ body .ui-tooltip {
 
     .newNavStyle{
     margin-left: -5px;
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
@@ -7201,7 +7201,7 @@ body .ui-tooltip {
   }
     .newNavStyle{
     margin-left: -160px;
-    font-size: 14px;
+    font-size: 10px;
   }
 }
 
